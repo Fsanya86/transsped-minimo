@@ -1,0 +1,132 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-01 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.10; wp-6.5.4\n"
+"X-Domain: minimo"
+
+#: includes/order-actions.php:63
+msgid "%d szállítmány létrehozva"
+msgstr ""
+
+#: transsped-minimo.php:64
+msgid "Beállítások"
+msgstr ""
+
+#: includes/admin-settings.php:68
+msgid "Bolt neve"
+msgstr ""
+
+#: includes/admin-settings.php:74
+msgid "Bolt neve minimo rendszerben"
+msgstr ""
+
+#: includes/admin-settings.php:80
+msgid "Bolt telefonszáma"
+msgstr ""
+
+#: includes/admin-settings.php:100
+msgid "Csomag típusok és alapértelmezett értékeik"
+msgstr ""
+
+#: includes/admin-settings.php:102
+msgid ""
+"Csomag típusok és alapértelmezett értékeik. A típusok soronként, az "
+"alapértelmezett értékek vesszővel elválasztva legyenek, pl.<br/>láda, 1<br/>"
+"mini, 0"
+msgstr ""
+
+#: includes/order-actions.php:64
+msgid "címke"
+msgstr ""
+
+#: includes/order-edit-meta-box.php:66
+msgid "Címke készítés"
+msgstr ""
+
+#: includes/order-edit-meta-box.php:73
+msgid "Címke nyomtatás"
+msgstr ""
+
+#: includes/admin-settings.php:108
+msgid "Címke típus"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ferenczi Sándor"
+msgstr ""
+
+#: includes/order-actions.php:48
+#, php-format
+msgid "Hiba a szállítmány létrehozásakor: %s"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://sandorferenczi.hu"
+msgstr ""
+
+#: includes/admin-settings.php:31
+msgid "Kapcsolati adatok"
+msgstr ""
+
+#: includes/order-edit-meta-box.php:47
+#, php-format
+msgid ""
+"Kérlek állítsd be a csomag típusokat és az alapértelmezett értékeiket a "
+"%sbeállításokban%s"
+msgstr ""
+
+#: includes/admin-settings.php:44
+msgid "Teszt API felhasználónév"
+msgstr ""
+
+#: includes/admin-settings.php:50
+msgid "Teszt API jelszó"
+msgstr ""
+
+#: includes/admin-settings.php:38
+msgid "Teszt mód"
+msgstr ""
+
+#: includes/admin-settings.php:9 includes/order-edit-meta-box.php:32
+msgid "Transsped"
+msgstr ""
+
+#. Name of the plugin
+msgid "Transsped - Minimo"
+msgstr ""
+
+#. Description of the plugin
+msgid "Transsped - Minimo - Woocommerce integráció"
+msgstr ""
+
+#: includes/order-actions.php:61
+msgid "Transsped címke készült"
+msgstr ""
+
+#: includes/admin-settings.php:92
+msgid "Transsped szállítási módok"
+msgstr ""
+
+#: includes/admin-settings.php:56
+msgid "Éles API felhasználónév"
+msgstr ""
+
+#: includes/admin-settings.php:62
+msgid "Éles API jelszó"
+msgstr ""
+
+#: includes/admin-settings.php:86
+msgid "Ügyfélszolgálat email címe"
+msgstr ""
