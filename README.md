@@ -1,0 +1,1 @@
+Transsped-Minimo - Woocommerce integráció
