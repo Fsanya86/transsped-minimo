@@ -12,6 +12,7 @@ function get_minimo_sticker_ajax() {
 	$package_types = $_POST;
 	unset ($package_types['action']);
 	unset ($package_types['order_id']);
+	unset ($package_types['nonce']);
 	
 	foreach ( $package_types as $package_type_name => $value ) {
 		if ( $value == '0' ) {
