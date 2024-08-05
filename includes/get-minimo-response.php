@@ -165,11 +165,11 @@ function get_minimo_response( $type, $order_ids = array(), $packages = array() )
 		
 	} else {
 		if ( function_exists('json_validate') ) {
-			$log = 'response: '. print_r(json_validate($response) ? json_decode($response) : $response ,true);
+			$log = json_validate($response) ? json_decode($response) : $response;
 		} else {
-			$log = !is_null(json_decode($response)) ? json_decode($response) : 'json error: '.$response;
+			$log = !is_null(json_decode($response)) ? json_decode($response) : $response;
 		}
-		wc_get_logger()->debug( print_r($log, true), array('source'=>'transsped')	);
+		wc_get_logger()->debug( 'response: '. print_r($log, true), array('source'=>'transsped')	);
 		return ( $log );
 	}
 }

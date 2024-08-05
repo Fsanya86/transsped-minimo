@@ -59,7 +59,7 @@ function get_minimo_sticker_ajax() {
 	
 	//We got the sticker
 	$minimo_response['sticker_link'] = $sticker;
-	$order->add_order_note( __('Transsped címke készült','minimo').' :<a href="'.$sticker.'" target="_blank">'.basename($sticker).'</a>' );
+	$order->add_order_note( __('Transsped címke készült','minimo').': <a href="'.$sticker.'" target="_blank">'.basename($sticker).'</a>' );
 	
 	$minimo_response_str = sprintf(__('%d szállítmány létrehozva','minimo'), $minimo_response['shipment_created'] );
 	$minimo_response_str.= ', '.__('címke','minimo').': <a href="'.$minimo_response['sticker_link'].'">'.$order_id.'</a>';
