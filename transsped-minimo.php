@@ -3,6 +3,8 @@
  * Plugin Name: Transsped - Minimo
  * Plugin URI: 
  * Description: Transsped - Minimo - Woocommerce integráció
+ * Requires PHP: 7.4
+ * Requires at least: WP 6.0
  * Version: 1.0
  * Author: Ferenczi Sándor
  * Author URI: https://sandorferenczi.hu
@@ -42,7 +44,7 @@ class Minimo
 	function enqueue_admin( $hook ) {
 		
 		global $post;
-		if ( $hook == 'woocommerce_page_wc-orders' || $post->post_type == 'shop_order' ) {
+		if ( $hook == 'woocommerce_page_wc-orders' || ( isset($post ) && $post->post_type == 'shop_order' ) ) {
 			wp_enqueue_script('js-admin', plugin_dir_url( __FILE__ ) .'js/js-admin.js', array('jquery'));
 			wp_localize_script( 'js-admin', 'ajax_object_admin', array(
 				'ajax_url'	=> admin_url( 'admin-ajax.php' ),
